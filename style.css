@@ -37,6 +37,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: "Figtree";
 }
 
 .card {
@@ -63,9 +64,16 @@ body {
   display: inline-block;
   font-weight: 800;
   font-size: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
-  padding: .2rem .8rem;
+  padding: 0.2rem 0.8rem;
   border-radius: 5px;
   margin-bottom: 1rem;
+}
+
+.card__date {
+  color: var(--clr-gray-950);
+  font-weight: 500;
+  font-size: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+  margin-bottom: 1.3rem;
 }
 
 /* .attribution {
