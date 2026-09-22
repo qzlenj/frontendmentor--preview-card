@@ -1,8 +1,8 @@
 :root {
   --clr-yellow: hsl(47, 88%, 63%); /* bg color */
-  --clr-white: hsl(0, 0%, 100%);
-  --clr-gray-500: hsl(0, 0%, 42%);
-  --clr-gray-950: hsl(0, 0%, 7%);
+  --clr-white: hsl(0, 0%, 100%); /* card bg color */
+  --clr-gray-500: hsl(0, 0%, 42%); /* Paragraph color */
+  --clr-gray-950: hsl(0, 0%, 7%); /* Title, user, badge */
 }
 
 html {
@@ -25,10 +25,8 @@ html {
   src: url("./fonts/figtree-v9-latin-800.woff2") format("woff2");
 }
 
-*,
-body {
-  padding: 0;
-  margin: 0;
+a {
+  text-decoration: none;
 }
 
 body {
@@ -76,11 +74,21 @@ body {
   margin-bottom: 1.3rem;
 }
 
-.card__title {
+a .card__title {
   color: var(--clr-gray-950);
   font-weight: 800;
   font-size: clamp(1.2rem, 1.15rem + 0.5vw, 1.45rem);
   margin-bottom: 1.5rem;
+}
+
+a .card__title:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+a .card__title:active {
+  text-decoration: none;
+  color: var(--clr-yellow);
 }
 
 .card__description {
