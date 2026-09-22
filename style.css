@@ -86,13 +86,21 @@ body {
 .card__description {
   color: var(--clr-gray-500);
   font-size: clamp(0.875rem, 0.825rem + 0.25vw, 1rem);
-  margin-bottom: .8rem;
+  margin-bottom: 0.8rem;
 }
 
-/* .attribution {
-  font-size: 0.6875rem;
-  text-align: center;
+.author {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
-} */
+
+.author__dp {
+  width: 2rem;
+  height: auto;
+}
+
+.author__username {
+  font-weight: 800;
+  font-size: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+}
