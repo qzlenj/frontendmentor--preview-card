@@ -24,12 +24,12 @@ The goal was to recreate the provided design as closely as possible while practi
 
 ### Screenshot
 
-[Blog preview card](./image.png)
+[Blog preview card](./images/Screenshot.png)
 
 ### Links
 
-- Solution URL: [GitHub Repository](YOUR_GITHUB_REPOSITORY_LINK)
-- Live Site URL: [Live Site](YOUR_LIVE_SITE_LINK)
+- Solution URL: [GitHub Repository](https://github.com/qzlenj/frontendmentor--preview-card)
+- Live Site URL: [Live Site](https://qzlenj.github.io/frontendmentor--preview-card/)
 
 ## My process
 
