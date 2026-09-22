@@ -86,7 +86,8 @@ a .card__title {
   margin-bottom: 1.5rem;
 }
 
-a .card__title:hover {
+a .card__title:hover,
+a .author__username:hover {
   text-decoration: underline;
   text-underline-offset: 10px;
 }
@@ -111,6 +112,7 @@ a .card__title:active {
 .author__dp {
   width: 2rem;
   height: auto;
+  cursor: pointer;
 }
 
 .author__username {
