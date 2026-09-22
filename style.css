@@ -46,6 +46,11 @@ body {
   border-radius: 20px;
   padding: 1.5rem;
   box-shadow: 8px 8px 0 var(--clr-gray-950);
+  transition: box-shadow 1s ease;
+}
+
+.card:hover {
+  box-shadow: -8px -8px 0 var(--clr-gray-950);
 }
 
 .card__banner {
