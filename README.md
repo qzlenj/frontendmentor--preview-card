@@ -24,7 +24,7 @@ The goal was to recreate the provided design as closely as possible while practi
 
 ### Screenshot
 
-[Blog preview card](./images/Screenshot.png)
+![Blog preview card](./images/Screenshot.png)
 
 ### Links
 
