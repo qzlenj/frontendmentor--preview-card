@@ -25,7 +25,8 @@ html {
   src: url("./fonts/figtree-v9-latin-800.woff2") format("woff2");
 }
 
-*, body {
+*,
+body {
   padding: 0;
   margin: 0;
 }
@@ -54,6 +55,17 @@ body {
   display: block;
   margin: 0 auto;
   border-radius: 15px;
+  margin-bottom: 1.2rem;
+}
+
+.card__badge {
+  background-color: var(--clr-yellow);
+  display: inline-block;
+  font-weight: 800;
+  font-size: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+  padding: .2rem .8rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
 }
 
 /* .attribution {
